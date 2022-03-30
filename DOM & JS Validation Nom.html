@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Valider nom</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.css">
+    </head>
+    <body><center>
+        <br><br><br><br><br><br><br>
+        <div  style="background-color: lightpink; height: 400px;  width: 400px;">
+        <h1>Manipulation DOM</h1>
+        <h5>Tentez d'ajoutez le prenom et validez, de l'ajouter plusieurs fois et voir la date,
+            de la voir plusieurs fois.
+        </h5>
+        <table cellspacing="1" cellpadding="0" border="1" id="laTable" style="border-color: aqua;">
+            <tr> <td>Nom:</td> 
+            <td><input type="text" id="nom"></td></tr>
+           <tr><td><button type="button" onclick="ajouterPrenom()">Ajouter Prenom</button></td>  
+           <td><button type="button" onclick="validerNomPrenom()" > Valider </button></td></tr>   
+        </table></div>
+        <button type="button" onclick="voirDate()">Voir la date</button></center>
+  <script src="monPremierDOM_JS.js"></script>
+
+</body>
+</html>
